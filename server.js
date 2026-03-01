@@ -13,6 +13,7 @@ app.use(express.json());
 // NVIDIA NIM API configuration
 const NIM_API_BASE = process.env.NIM_API_BASE || 'https://integrate.api.nvidia.com/v1';
 const NIM_API_KEY = process.env.NIM_API_KEY;
+console.log('API Key loaded:', NIM_API_KEY ? `${NIM_API_KEY.slice(0, 8)}...` : 'MISSING');
 
 // 🔥 REASONING DISPLAY TOGGLE - Shows/hides reasoning in output
 const SHOW_REASONING = false; // Set to true to show reasoning with <think> tags
