@@ -32,6 +32,7 @@ const MODEL_MAPPING = {
   'gemini-pro': 'qwen/qwen3.5-397b-a17b',
   'kimi-k2.5': 'moonshotai/kimi-k2.5',
   'GLM5': 'z-ai/glm5'
+  'GLM4.7': 'z-ai/glm-4.7'
 };
 
 // Health check endpoint
